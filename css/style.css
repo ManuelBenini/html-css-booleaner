@@ -19,3 +19,20 @@ body{
   background-size: 200px;
   background-position: bottom;
 }
+
+h1{
+  font-size: 40px;
+}
+
+#presentazione{
+  font-size: 20px;
+}
+
+#autore{
+  color: #21a9e5;
+}
+
+.pastello{
+  color: #b6b6b6;
+  font-weight: bold;
+}
