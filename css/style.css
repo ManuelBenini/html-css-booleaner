@@ -1,23 +1,24 @@
-body{
+*{
   margin: 0;
   box-sizing: border-box;
 }
 
-#sfondo-header{
+.sfondo-header{
   height: 100px;
+  width: 100%;
   background-image: url('../img/pattern.png');
   background-color: #4ea0ff;
-  background-size: 500px;
+  background-size: 40%;
   background-repeat: repeat;
 }
 
+.container{
+  margin-left: 5px;
+}
+
 #logo{
-  height: 90px;
-  width: 200px;
-  background-image: url('../img/logo.svg');
-  background-repeat: no-repeat;
-  background-size: 200px;
-  background-position: bottom;
+width: 18%;
+margin: 40px 5px;
 }
 
 h1{
@@ -28,20 +29,28 @@ h1{
   font-size: 20px;
 }
 
-#autore{
-  color: #21a9e5;
-}
-
-.pastello{
+.grigio{
   color: #b6b6b6;
   font-weight: bold;
+}
+
+#autore{
+  color: #21a9e5;
 }
 
 .immagini-timberners{
   margin-top: 20px;
 }
 
-.sottolineatura{
+.fonti-foto{
+  font-size: 0.8em;
+}
+
+p, ul{
+  margin: 20px 0;
+}
+
+.sottolineatura-gialla{
   background-color: #ffff00;
 }
 
@@ -72,10 +81,6 @@ td{
   height: 150px;
   width: 200px;
   background-size: cover;
-  margin: 10px 5px;
-}
-
-.titolo-immagine{
+  margin: 10px 0px;
   padding: 10px;
-  font-weight: bold;
 }
