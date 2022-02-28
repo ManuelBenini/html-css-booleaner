@@ -44,3 +44,17 @@ h1{
 .sottolineatura{
   background-color: #ffff00;
 }
+
+#titoli-colonne{
+  background-color: #20a9e5;
+  color: white;
+  text-align: left;
+}
+
+td{
+  width: 400px;
+}
+
+.righe-colorate{
+  background-color: #b1e5f2;
+}
