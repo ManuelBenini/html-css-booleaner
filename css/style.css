@@ -58,3 +58,24 @@ td{
 .righe-colorate{
   background-color: #b1e5f2;
 }
+
+#desktop{
+  background-image: url('../img/monitor.jpg');
+}
+
+#mappa{
+  background-image: url('../img/graph.jpg');
+}
+
+#desktop, #mappa{
+  color: white;
+  height: 150px;
+  width: 200px;
+  background-size: cover;
+  margin: 10px 5px;
+}
+
+.titolo-immagine{
+  padding: 10px;
+  font-weight: bold;
+}
